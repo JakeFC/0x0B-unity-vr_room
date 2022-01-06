@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 28187993}
   - component: {fileID: 28187992}
   - component: {fileID: 28187991}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small Box H
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -391,7 +391,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -525,7 +525,7 @@ GameObject:
   - component: {fileID: 44409450}
   - component: {fileID: 44409449}
   - component: {fileID: 44409448}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_L_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -630,7 +630,7 @@ GameObject:
   - component: {fileID: 1080210704}
   - component: {fileID: 78113476}
   - component: {fileID: 78113475}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_L (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -686,7 +686,7 @@ GameObject:
   - component: {fileID: 87409456}
   - component: {fileID: 87409455}
   - component: {fileID: 87409454}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_L_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1169,7 +1169,7 @@ MonoBehaviour:
   m_OnSelectExit:
     m_PersistentCalls:
       m_Calls: []
-  m_SelectActionTrigger: 1
+  m_SelectActionTrigger: 0
   m_HideControllerOnSelect: 0
   m_PlayAudioClipOnSelectEnter: 0
   m_AudioClipForOnSelectEnter: {fileID: 0}
@@ -1227,7 +1227,7 @@ MonoBehaviour:
   m_EnableInputActions: 1
   m_PoseProvider: {fileID: 0}
   m_ControllerNode: 5
-  m_SelectUsage: 3
+  m_SelectUsage: 2
   m_ActivateUsage: 2
   m_UIPressUsage: 2
   m_AxisToPressThreshold: 0.1
@@ -1301,7 +1301,7 @@ GameObject:
   - component: {fileID: 111305945}
   - component: {fileID: 111305944}
   - component: {fileID: 111305943}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small Box C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1427,7 +1427,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -1664,7 +1664,7 @@ GameObject:
   - component: {fileID: 159622036}
   - component: {fileID: 159622035}
   - component: {fileID: 159622034}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small Box G
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1790,7 +1790,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -1862,7 +1862,7 @@ GameObject:
   - component: {fileID: 168467172}
   - component: {fileID: 168467175}
   - component: {fileID: 168467174}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PawnDark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1977,7 +1977,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -2004,7 +2004,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 0.25
+  m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
 --- !u!54 &168467175
@@ -2230,6 +2230,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b20ee9c67e5821f4d8b2f23d25538eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &177379435 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6503652, guid: 548a40efc092c6f408cc4d1691b171cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 177379430}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &193640133
 GameObject:
   m_ObjectHideFlags: 0
@@ -2710,7 +2716,7 @@ MonoBehaviour:
   m_OnSelectExit:
     m_PersistentCalls:
       m_Calls: []
-  m_SelectActionTrigger: 1
+  m_SelectActionTrigger: 0
   m_HideControllerOnSelect: 0
   m_PlayAudioClipOnSelectEnter: 0
   m_AudioClipForOnSelectEnter: {fileID: 0}
@@ -2768,7 +2774,7 @@ MonoBehaviour:
   m_EnableInputActions: 1
   m_PoseProvider: {fileID: 0}
   m_ControllerNode: 4
-  m_SelectUsage: 3
+  m_SelectUsage: 2
   m_ActivateUsage: 2
   m_UIPressUsage: 2
   m_AxisToPressThreshold: 0.1
@@ -3351,7 +3357,7 @@ GameObject:
   - component: {fileID: 313074376}
   - component: {fileID: 313074375}
   - component: {fileID: 313074374}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small Box D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3477,7 +3483,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -3593,6 +3599,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1161631421}
     m_Modifications:
+    - target: {fileID: 1411003019843990, guid: 423906e3a82141942aa314fe7f592788, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4054476460464272, guid: 423906e3a82141942aa314fe7f592788, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.578
@@ -3661,7 +3671,7 @@ GameObject:
   - component: {fileID: 323352878}
   - component: {fileID: 323352880}
   - component: {fileID: 323352879}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3922,25 +3932,201 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1161631421}
     m_Modifications:
+    - target: {fileID: 1006182037109014, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1007137668262374, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030914736838342, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042164612217212, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047724347050930, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1061581204462318, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1077170312067350, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097835950912982, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1143644238588574, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199693423860696, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214383481752416, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1219882734160562, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1258230911515254, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1258230911515254, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279042805307684, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279795845601762, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1352894194362962, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1352894194362962, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1391751831921762, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1406209738815346, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1406833396418230, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1423444329520554, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1501734389318864, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515943737033958, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1577921420570782, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1577921420570782, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1592292478725462, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1597915674465970, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
       propertyPath: m_Name
       value: ChessBoard
       objectReference: {fileID: 0}
+    - target: {fileID: 1597915674465970, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1603907031073628, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603907031073628, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1614740884239598, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1621777035824342, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1628828461410036, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651884037277076, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1676679127268330, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696954754349814, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1699584976494424, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701408099124086, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1789058245380158, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1804306054741418, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872826366862448, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1878159687346630, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1889770674201340, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1890271746722730, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1933904871695420, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1943464933237776, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956815101891986, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1974613998787502, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4258394669215810, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4151,7 +4337,7 @@ GameObject:
   - component: {fileID: 352216290}
   - component: {fileID: 352216289}
   - component: {fileID: 352216288}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Large Box A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4277,7 +4463,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -4541,7 +4727,7 @@ GameObject:
   - component: {fileID: 412491203}
   - component: {fileID: 412491202}
   - component: {fileID: 412491201}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_blank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5037,6 +5223,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b20ee9c67e5821f4d8b2f23d25538eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &484017568 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6503652, guid: 548a40efc092c6f408cc4d1691b171cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 484017563}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &498602660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5237,7 +5429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 511970056}
   - component: {fileID: 511970057}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WhiteLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5528,7 +5720,7 @@ GameObject:
   - component: {fileID: 550557030}
   - component: {fileID: 550557029}
   - component: {fileID: 550557028}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5899,7 +6091,7 @@ GameObject:
   - component: {fileID: 1514967598}
   - component: {fileID: 621979562}
   - component: {fileID: 621979561}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_L (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6313,7 +6505,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -6340,7 +6532,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 0.25
+  m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
 --- !u!54 &690929955
@@ -6423,7 +6615,7 @@ GameObject:
   - component: {fileID: 698865245}
   - component: {fileID: 698865244}
   - component: {fileID: 698865243}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_L_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6579,6 +6771,8 @@ GameObject:
   m_Component:
   - component: {fileID: 703058768}
   - component: {fileID: 703058767}
+  - component: {fileID: 703058770}
+  - component: {fileID: 703058769}
   m_Layer: 0
   m_Name: XR Interaction Manager
   m_TagString: Untagged
@@ -6612,6 +6806,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &703058769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703058766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01f69dc1cb084aa42b2f2f8cd87bc770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_System: {fileID: 703058770}
+--- !u!114 &703058770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703058766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a5df2202a8b96488c744be3bd0c33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Timeout: 10
+  m_XRRig: {fileID: 1970762900}
 --- !u!1001 &705970799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6823,6 +7044,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b20ee9c67e5821f4d8b2f23d25538eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &739556732 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6503652, guid: 548a40efc092c6f408cc4d1691b171cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 739556727}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &753671656 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 447618, guid: 6456a4784f31cab439d29b7e3bb286a4,
@@ -6846,7 +7073,7 @@ GameObject:
   - component: {fileID: 753735709}
   - component: {fileID: 753735708}
   - component: {fileID: 753735707}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Container A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6973,7 +7200,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -7238,7 +7465,7 @@ GameObject:
   - component: {fileID: 793035041}
   - component: {fileID: 793035040}
   - component: {fileID: 793035039}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7697,6 +7924,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 853665712}
+  - component: {fileID: 853665713}
   m_Layer: 0
   m_Name: MainRoom
   m_TagString: Untagged
@@ -7730,6 +7958,67 @@ Transform:
   m_Father: {fileID: 269374884}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &853665713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853665711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38f6bf3d943ac7945842268c9ef1dca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 703058767}
+  m_Colliders:
+  - {fileID: 1311924343}
+  - {fileID: 44409448}
+  - {fileID: 87409454}
+  - {fileID: 1670773200}
+  - {fileID: 1339947859}
+  - {fileID: 1841393890}
+  - {fileID: 698865243}
+  - {fileID: 2134614179}
+  - {fileID: 1508252981}
+  - {fileID: 550557029}
+  - {fileID: 1478891965}
+  - {fileID: 1535208375}
+  - {fileID: 2054009172}
+  - {fileID: 1162641443}
+  - {fileID: 793035039}
+  - {fileID: 412491201}
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 823
+  m_OnFirstHoverEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CustomReticle: {fileID: 0}
+  m_TeleportationProvider: {fileID: 703058769}
+  m_MatchOrientation: 0
+  m_TeleportTrigger: 0
 --- !u!4 &855195406
 Transform:
   m_ObjectHideFlags: 0
@@ -7960,7 +8249,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -7987,7 +8276,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 0.25
+  m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
 --- !u!54 &907956206
@@ -8467,7 +8756,7 @@ GameObject:
   - component: {fileID: 964460326}
   - component: {fileID: 964460325}
   - component: {fileID: 964460324}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Container B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8594,7 +8883,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -9105,7 +9394,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -9132,7 +9421,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 0.25
+  m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
 --- !u!54 &1026749667
@@ -9240,6 +9529,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b20ee9c67e5821f4d8b2f23d25538eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &1036981536 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6503652, guid: 548a40efc092c6f408cc4d1691b171cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1036981531}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1037386632
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9359,7 +9654,7 @@ GameObject:
   - component: {fileID: 1047313463}
   - component: {fileID: 1047313462}
   - component: {fileID: 1047313461}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Medium Box B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9485,7 +9780,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -9656,7 +9951,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -9683,7 +9978,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 0.25
+  m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
 --- !u!54 &1057092968
@@ -10015,6 +10310,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1161631421}
     m_Modifications:
+    - target: {fileID: 100000, guid: 0705906c3356b1a48a7469e05dfaba4f, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0705906c3356b1a48a7469e05dfaba4f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.642
@@ -10371,7 +10670,7 @@ MonoBehaviour:
   m_PoseProviderComponent: {fileID: 0}
   m_TrackingType: 0
   m_UpdateType: 0
-  m_UseRelativeTransform: 0
+  m_UseRelativeTransform: 1
 --- !u!1001 &1145436476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10535,7 +10834,7 @@ GameObject:
   - component: {fileID: 1152786557}
   - component: {fileID: 1152786556}
   - component: {fileID: 1152786555}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tube B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10662,7 +10961,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -10838,7 +11137,7 @@ GameObject:
   - component: {fileID: 1162641444}
   - component: {fileID: 1162641443}
   - component: {fileID: 1162641442}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10945,7 +11244,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -10972,7 +11271,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 0.25
+  m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
 --- !u!54 &1178205994
@@ -11132,9 +11431,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1161631421}
     m_Modifications:
+    - target: {fileID: 131706, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 137354, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 188780, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
       propertyPath: m_Name
       value: Pillow A
+      objectReference: {fileID: 0}
+    - target: {fileID: 188780, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 452766, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11192,7 +11503,7 @@ GameObject:
   - component: {fileID: 1213449021}
   - component: {fileID: 1213449023}
   - component: {fileID: 1213449022}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11621,7 +11932,7 @@ GameObject:
   - component: {fileID: 1284105640}
   - component: {fileID: 1284105642}
   - component: {fileID: 1284105641}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11810,7 +12121,7 @@ GameObject:
   - component: {fileID: 1311924345}
   - component: {fileID: 1311924344}
   - component: {fileID: 1311924343}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_L_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12140,6 +12451,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b20ee9c67e5821f4d8b2f23d25538eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &1336945483 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6503652, guid: 548a40efc092c6f408cc4d1691b171cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1336945478}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1338788923
 GameObject:
   m_ObjectHideFlags: 0
@@ -12152,7 +12469,7 @@ GameObject:
   - component: {fileID: 1338788924}
   - component: {fileID: 1338788926}
   - component: {fileID: 1338788925}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12238,7 +12555,7 @@ GameObject:
   - component: {fileID: 1339947861}
   - component: {fileID: 1339947860}
   - component: {fileID: 1339947859}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_L_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12485,6 +12802,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b20ee9c67e5821f4d8b2f23d25538eca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &1359517653 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6503652, guid: 548a40efc092c6f408cc4d1691b171cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1359517648}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1364324113
 GameObject:
   m_ObjectHideFlags: 0
@@ -12629,6 +12952,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1370908670}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1378892887 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 127260, guid: ac7a01ca06ca9044eb15b32cb7a936f8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1579967253}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1378892889
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378892887}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1378892892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378892887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 703058767}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_OnFirstHoverEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1489055087}
+        m_MethodName: Activate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_OnSelectExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CustomReticle: {fileID: 0}
 --- !u!4 &1382592511
 Transform:
   m_ObjectHideFlags: 0
@@ -12744,7 +13142,7 @@ GameObject:
   - component: {fileID: 1415807840}
   - component: {fileID: 1415807842}
   - component: {fileID: 1415807839}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RookDark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12871,7 +13269,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -12949,9 +13347,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1161631421}
     m_Modifications:
+    - target: {fileID: 131706, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 137354, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 188780, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
       propertyPath: m_Name
       value: Pillow C
+      objectReference: {fileID: 0}
+    - target: {fileID: 188780, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 452766, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13004,9 +13414,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1161631421}
     m_Modifications:
+    - target: {fileID: 131706, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 137354, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 188780, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
       propertyPath: m_Name
       value: Pillow B
+      objectReference: {fileID: 0}
+    - target: {fileID: 188780, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 452766, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13133,7 +13555,7 @@ GameObject:
   - component: {fileID: 1436331148}
   - component: {fileID: 1436331151}
   - component: {fileID: 1436331150}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BishopLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13248,7 +13670,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -13275,7 +13697,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 0.25
+  m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
 --- !u!54 &1436331151
@@ -13344,7 +13766,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -13371,7 +13793,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 0.25
+  m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
 --- !u!54 &1437185046
@@ -13407,7 +13829,7 @@ GameObject:
   - component: {fileID: 1448608422}
   - component: {fileID: 1448608418}
   - component: {fileID: 1448608421}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13498,7 +13920,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -13712,7 +14134,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -13739,7 +14161,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 0.25
+  m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
 --- !u!54 &1460138190
@@ -13882,7 +14304,7 @@ GameObject:
   - component: {fileID: 1478891967}
   - component: {fileID: 1478891966}
   - component: {fileID: 1478891965}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_5 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14103,9 +14525,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1489055086}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b9792d85e21eb140a2adcd16bc6e21f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  doorController: {fileID: 1489055089}
+  mainRoom: {fileID: 853665711}
+--- !u!95 &1489055089 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9575016, guid: ac7a01ca06ca9044eb15b32cb7a936f8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1579967253}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1491069421
 GameObject:
   m_ObjectHideFlags: 0
@@ -14118,7 +14548,7 @@ GameObject:
   - component: {fileID: 25448901}
   - component: {fileID: 1491069423}
   - component: {fileID: 1491069422}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_L (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14274,7 +14704,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -14301,7 +14731,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 0.25
+  m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
 --- !u!54 &1504577593
@@ -14333,7 +14763,7 @@ GameObject:
   - component: {fileID: 1508252982}
   - component: {fileID: 1508252981}
   - component: {fileID: 1508252980}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14509,7 +14939,7 @@ GameObject:
   - component: {fileID: 1526245128}
   - component: {fileID: 1526245127}
   - component: {fileID: 1526245126}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tube A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14636,7 +15066,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -14763,7 +15193,7 @@ GameObject:
   - component: {fileID: 1535208377}
   - component: {fileID: 1535208376}
   - component: {fileID: 1535208375}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_blank (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15228,6 +15658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArtStatue B
       objectReference: {fileID: 0}
+    - target: {fileID: 156656, guid: bddb1706eb9e38c4c8aad9e975af8fba, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 405642, guid: bddb1706eb9e38c4c8aad9e975af8fba, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.808
@@ -15367,7 +15801,7 @@ GameObject:
   - component: {fileID: 1645799102}
   - component: {fileID: 1645799101}
   - component: {fileID: 1645799100}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small Box A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15493,7 +15927,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -15568,7 +16002,7 @@ GameObject:
   - component: {fileID: 1662838660}
   - component: {fileID: 1662838659}
   - component: {fileID: 1662838658}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small Box E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15694,7 +16128,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -15824,7 +16258,7 @@ GameObject:
   - component: {fileID: 1670773202}
   - component: {fileID: 1670773201}
   - component: {fileID: 1670773200}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_L_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16246,7 +16680,7 @@ GameObject:
   - component: {fileID: 458614921}
   - component: {fileID: 1698031166}
   - component: {fileID: 1698031165}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_L (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16299,6 +16733,10 @@ PrefabInstance:
     - target: {fileID: 136794, guid: df1cac3988f7cf841b2b0afc88ea5e26, type: 3}
       propertyPath: m_Name
       value: ArtStatue A
+      objectReference: {fileID: 0}
+    - target: {fileID: 136794, guid: df1cac3988f7cf841b2b0afc88ea5e26, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 482476, guid: df1cac3988f7cf841b2b0afc88ea5e26, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16377,7 +16815,7 @@ GameObject:
   - component: {fileID: 1723585049}
   - component: {fileID: 1723585048}
   - component: {fileID: 1723585047}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small Box B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16503,7 +16941,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -16573,7 +17011,7 @@ GameObject:
   - component: {fileID: 1730938516}
   - component: {fileID: 1730938518}
   - component: {fileID: 1730938517}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16827,6 +17265,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1754894737}
+  - component: {fileID: 1754894738}
   m_Layer: 0
   m_Name: StorageRoom
   m_TagString: Untagged
@@ -16857,6 +17296,60 @@ Transform:
   m_Father: {fileID: 269374884}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1754894738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754894736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38f6bf3d943ac7945842268c9ef1dca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 703058767}
+  m_Colliders:
+  - {fileID: 515217347}
+  - {fileID: 1395487791}
+  - {fileID: 1150182705}
+  - {fileID: 739556732}
+  - {fileID: 177379435}
+  - {fileID: 1336945483}
+  - {fileID: 1359517653}
+  - {fileID: 1036981536}
+  - {fileID: 484017568}
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_OnFirstHoverEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CustomReticle: {fileID: 0}
+  m_TeleportationProvider: {fileID: 703058769}
+  m_MatchOrientation: 0
+  m_TeleportTrigger: 0
 --- !u!1001 &1764775806
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16864,9 +17357,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1161631421}
     m_Modifications:
+    - target: {fileID: 131706, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 137354, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 188780, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
       propertyPath: m_Name
       value: Pillow D
+      objectReference: {fileID: 0}
+    - target: {fileID: 188780, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 452766, guid: d0b3c1d0dda7a1d49a1d9fa18c0dc5ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17466,7 +17971,7 @@ GameObject:
   - component: {fileID: 1829891267}
   - component: {fileID: 1829891263}
   - component: {fileID: 1829891266}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: KnightLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17557,7 +18062,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -17661,7 +18166,7 @@ GameObject:
   - component: {fileID: 1838999632}
   - component: {fileID: 1838999634}
   - component: {fileID: 1838999633}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17747,7 +18252,7 @@ GameObject:
   - component: {fileID: 1841393892}
   - component: {fileID: 1841393891}
   - component: {fileID: 1841393890}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_L_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17949,7 +18454,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -17976,7 +18481,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 0.25
+  m_ThrowAngularVelocityScale: 1
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
 --- !u!54 &1880173206
@@ -18007,7 +18512,7 @@ GameObject:
   - component: {fileID: 1882845579}
   - component: {fileID: 1882845581}
   - component: {fileID: 1882845580}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18143,7 +18648,7 @@ GameObject:
   - component: {fileID: 1885133830}
   - component: {fileID: 1885133832}
   - component: {fileID: 1885133831}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18419,7 +18924,7 @@ GameObject:
   - component: {fileID: 1956754391}
   - component: {fileID: 1956754393}
   - component: {fileID: 1956754390}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Flashlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18554,7 +19059,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -18765,7 +19270,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1970762901}
   - component: {fileID: 1970762900}
-  m_Layer: 0
+  - component: {fileID: 1970762902}
+  - component: {fileID: 1970762903}
+  - component: {fileID: 1970762904}
+  m_Layer: 9
   m_Name: XR Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18798,13 +19306,58 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1970762899}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.03, y: 0.2, z: 4.57}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 546381220}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1970762902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970762899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f5f8aebb7b46b540a3463029e49fd84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputController: 4
+  cam: {fileID: 1136318570}
+  speed: 2
+--- !u!136 &1970762903
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970762899}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.83, z: 0}
+--- !u!54 &1970762904
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970762899}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!4 &1973513091 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 446996, guid: ae0c21b643679c045b98cb678e8abef5,
@@ -19153,7 +19706,7 @@ GameObject:
   - component: {fileID: 2054009173}
   - component: {fileID: 2054009172}
   - component: {fileID: 2054009171}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19485,7 +20038,7 @@ GameObject:
   - component: {fileID: 2084471656}
   - component: {fileID: 2084471655}
   - component: {fileID: 2084471654}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Medium Box A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19611,7 +20164,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -19686,7 +20239,7 @@ GameObject:
   - component: {fileID: 2084804450}
   - component: {fileID: 2084804449}
   - component: {fileID: 2084804448}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small Box F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19812,7 +20365,7 @@ MonoBehaviour:
   m_CustomReticle: {fileID: 0}
   m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 2
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -20240,7 +20793,7 @@ GameObject:
   - component: {fileID: 2134614181}
   - component: {fileID: 2134614180}
   - component: {fileID: 2134614179}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: floor_2_L_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
